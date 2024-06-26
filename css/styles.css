@@ -1,5 +1,13 @@
+/*
+    COLOR PALLETE
+    footer/nav-menu/header font color: #074272
+    login button font: #5288c1
+    login button/footer span background: #e5f4fa 
+    learn more button background: #074272
+    chart font color: #939396 (Might use a screenshot, we'll see)
+*/
 body {
-    max-width: 1280px;
+    max-width: 75vw;  /* TODO: Review on proper units, this works for now */
     margin: 2rem auto;
 }
 
@@ -8,6 +16,7 @@ a {
 }
 
 header {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
