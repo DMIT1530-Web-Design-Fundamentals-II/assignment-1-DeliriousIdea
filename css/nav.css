@@ -12,7 +12,7 @@ a {
 header {
     max-width: 75vw;
     color: #074272;
-    margin: 0 auto;
+    margin: 1rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,13 +32,13 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: right;
-    padding: 0.25rem;
+    padding: 0.5rem;
 }
 
 .nav-menu>a {
     color: #fff !important;
     border: 1px solid #fff;
-    margin-right:0.25rem;
+    margin-right: 0.25rem;
 }
 
 .xyz-pages,
@@ -50,16 +50,19 @@ main {
 }
 
 .footer-container {
-    background-color: #e5f4fa ;
+    background-color: #e5f4fa;
+}
+
+.footer-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
-    max-width: 100vw;
+    max-width: 75vw;
+    margin: 0 auto;
     align-items: center;
 }
 
 .footer-links {
     display: flex;
-    justify-content: center;
-    max-width: 75vw;
+    gap: 1rem;
 }
