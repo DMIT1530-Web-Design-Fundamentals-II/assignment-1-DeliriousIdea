@@ -7,13 +7,14 @@
     chart font color: #939396 (Might use a screenshot, we'll see)
 */
 
-.hero-banner-container {
-    display:flex;
-    flex-direction: column;
+.hero-buttons-background {
+    max-width: 100vw;
+    background-color: #e5f4fa;
 }
 
 .hero-buttons {
-    background-color: #e5f4fa;
+    max-width: 60vw;
+    margin: 0 auto;
     display:flex;
     justify-content: space-between;
     padding: 1rem 0;
