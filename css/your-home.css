@@ -1,0 +1,38 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    background-color:#074272;
+    max-width: 20vw;
+    color:#fff;
+}
+
+.card>p {
+    padding: 0.5rem;
+}
+
+h2 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h2:nth-last-of-type(1) {
+    margin: 0rem 0rem;
+}
+
+.browse-card {
+    display: flex;
+    gap:1rem;
+}
+
+.browse-card:nth-of-type(2) { 
+    flex-direction: row-reverse;
+    gap:0;
+}
+
+.additional-help-wrapper {
+    background-color:#f5f5f5 ;
+}
