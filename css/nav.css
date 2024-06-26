@@ -37,3 +37,17 @@ header {
     display: flex;
     gap: 1rem;
 }
+
+.footer-container {
+    background-color: #e5f4fa ;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top:1rem;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
