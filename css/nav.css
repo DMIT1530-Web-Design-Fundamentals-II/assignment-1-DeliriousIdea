@@ -1,3 +1,9 @@
+/*
+    TODO:
+        Footer doesn't force to bottom on little content pages
+            May not be an issue after pages are filled out but doesn't feel right
+
+*/
 body {
     max-width: 100vw;
     margin: 0 auto;
@@ -6,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    color:#074272;
 }
 
 header {
@@ -19,7 +26,7 @@ header {
 
 .main-content {
     max-width: 60vw;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .nav-container {
@@ -40,8 +47,7 @@ header {
     margin-right: 0.25rem;
 }
 
-.xyz-pages,
-.xyz-pages>a {
+.xyz-pages {
     color: #074272;
     font-weight: bold;
     display: flex;
