@@ -6,45 +6,21 @@
     learn more button background: #074272
     chart font color: #939396 (Might use a screenshot, we'll see)
 */
-body {
-    max-width: 75vw;  /* TODO: Review on proper units, this works for now */
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+
+.hero-banner-container {
+    display:flex;
+    flex-direction: column;
 }
 
-a {
-    text-decoration: none;
-}
-
-header {
-    color:#074272;
-    margin: 1.25rem 0;
-    display: flex;
+.hero-buttons {
+    background-color: #e5f4fa;
+    display:flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 1rem 0;
 }
 
-.nav-menu{
-    background-color: #074272;
-    display: flex;
-    justify-content: right;
-    padding: 0.25rem;
-    gap: 0.25rem;
-}
-
-.nav-menu>a {
-    color:white !important;
-    border: 1px solid white;
-}
-
-.hero-banner>img{
-    max-width: 100%;
-}
-
-.xyz-pages,
-.xyz-pages>a {
-    color:#074272;
-    font-weight: bold;
-    display: flex;
-    gap: 1rem;
+.hero-buttons>button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer; /* Might change these buttons to 'cards' of links */
 }
