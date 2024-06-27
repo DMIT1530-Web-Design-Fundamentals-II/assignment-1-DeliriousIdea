@@ -16,12 +16,11 @@ a {
 }
 
 header {
-    max-width: 60vw;
-    color: #074272;
-    margin: 1rem auto;
+    max-width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    color: #074272;
+    margin: 1rem 0.5rem;
 }
 
 .main-content {
