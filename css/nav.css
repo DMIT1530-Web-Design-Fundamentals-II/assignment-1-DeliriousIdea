@@ -42,7 +42,7 @@ header {
 }
 
 .nav-menu>a {
-    color: #fff !important;
+    color: #fff;
     border: 0.02rem solid #fff;
     border-top-style: none;
     border-bottom-style: none;

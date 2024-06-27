@@ -13,6 +13,7 @@ button {
     border-radius: 0.15rem;
     padding: 0.5rem;
     color: #fff;
+    cursor: pointer;
 }
 
 .hero-buttons-background {
