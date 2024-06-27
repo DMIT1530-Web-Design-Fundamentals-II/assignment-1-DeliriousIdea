@@ -1,5 +1,8 @@
 /*
     TODO: Make images respect the same height for cards
+
+    Cannot for the life of me figure out why the one image won't rescale to the others
+    I had no issue with this in the other 2 pages, but this one jus doesn't want to work
 */
 
 h2 {
@@ -12,18 +15,25 @@ h2 {
 }
 
 .card-wrapper {
-    gap: 1rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    align-items: center;
+    gap: 1rem;
+    flex-grow: 0;
 }
 
-.community-card,
-.community-card>a {
+
+.community-card {
+    flex:32%;
+    flex-direction: column;
     background-color: #074272;
     color: #fff;
+}
+
+.community-card img {
+}
+
+.community-card a {
+    color:#fff;
 }
 
 .community-card>p {

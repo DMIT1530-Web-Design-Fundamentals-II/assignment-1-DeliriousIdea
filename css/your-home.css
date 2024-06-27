@@ -7,23 +7,27 @@ h2 {
 }
 
 h2:nth-last-of-type(1){
-    padding-top: 1rem;;
+    padding-top: 1rem;
 }
 
 .card-wrapper {
     display: flex;
+    flex-grow:0;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.card {
+.card { /* TODO: Figure out better way to do the cards, this somewhat works but the width on the right is too short */
     background-color:#074272;
-    max-width: 20vw;
-    color:#fff;
+    flex: 31%;
 }
 
-.card>p {
+.card p {
     padding: 0.5rem;
+}
+
+.card a {
+    color: #fff;
 }
 
 .browse-card {
