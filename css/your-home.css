@@ -1,6 +1,35 @@
 /*
     TODO: Browse links
 */
+.nav-container {
+    background-color: #074272;
+}
+
+.nav-menu {
+    max-width: 100%;
+    margin: 0 0.5;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.nav-menu>a {
+    color: #fff;
+    border: 0.02rem solid #fff;
+    border-top-style: none;
+    border-bottom-style: none;
+    padding: 0 0.25rem;
+}
+
+header {
+    color: #074272;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media screen and (min-width:800px) {}
 
 @media screen and (min-width:1300px) {
@@ -12,6 +41,36 @@
     h2:nth-last-of-type(1) {
         padding-top: 1rem;
     }
+
+    .nav-container {
+        background-color: #074272;
+    }
+
+    .nav-menu {
+        max-width: 60vw;
+        margin: 0 0.5;
+        display: flex;
+        justify-content: right;
+        padding: 0.5rem;
+    }
+
+    .nav-menu>a {
+        color: #fff;
+        border: 0.02rem solid #fff;
+        border-top-style: none;
+        border-bottom-style: none;
+        padding: 0 0.25rem;
+    }
+
+    header {
+        max-width: 60vw;
+        color: #074272;
+        margin: 1rem auto;
+        flex-direction: unset;
+        display: flex;
+        justify-content: space-between;
+    }
+
 
     .card-wrapper {
         display: flex;
