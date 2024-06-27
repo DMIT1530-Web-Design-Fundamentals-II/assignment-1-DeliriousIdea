@@ -1,64 +1,70 @@
 /*
     TODO: Browse links
 */
-h2 {
-    margin: 1rem 0;
-    text-align: center;
-}
+@media screen and (min-width:800px) {}
 
-h2:nth-last-of-type(1){
-    padding-top: 1rem;
-}
+@media screen and (min-width:1300px) {
+    h2 {
+        margin: 1rem 0;
+        text-align: center;
+    }
 
-.card-wrapper {
-    display: flex;
-    flex-grow:0;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
+    h2:nth-last-of-type(1) {
+        padding-top: 1rem;
+    }
 
-.card { /* TODO: Figure out better way to do the cards, this somewhat works but the width on the right is too short */
-    background-color:#074272;
-    flex: 31%;
-}
+    .card-wrapper {
+        display: flex;
+        flex-grow: 0;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 
-.card p {
-    padding: 0.5rem;
-}
+    .card {
+        /* TODO: Figure out better way to do the cards, this somewhat works but the width on the right is too short */
+        background-color: #074272;
+        flex: 31%;
+    }
 
-.card a {
-    color: #fff;
-}
+    .card p {
+        padding: 0.5rem;
+    }
 
-.browse-card {
-    display: flex;
-    gap:1rem;
-}
+    .card a {
+        color: #fff;
+    }
 
-.browse-card:nth-of-type(2) { 
-    flex-direction: row-reverse;
-    gap:0;
-}
+    .browse-card {
+        display: flex;
+        gap: 1rem;
+    }
 
-.additional-help-wrapper {
-    background-color:#f5f5f5 ;
-}
+    .browse-card:nth-of-type(2) {
+        flex-direction: row-reverse;
+        gap: 0;
+    }
 
-.help-wrapper {
-    max-width: 60vw;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-}
+    .additional-help-wrapper {
+        background-color: #f5f5f5;
+    }
 
-.help-card {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #fff;;
-    padding:1.5rem;
-    line-height: 2rem;
-    margin: 0 0 2rem;
-    border: 0.25rem solid #f3f3f3;
-    border-radius: 0.25rem;
+    .help-wrapper {
+        max-width: 60vw;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .help-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff;
+        ;
+        padding: 1.5rem;
+        line-height: 2rem;
+        margin: 0 0 2rem;
+        border: 0.25rem solid #f3f3f3;
+        border-radius: 0.25rem;
+    }
 }

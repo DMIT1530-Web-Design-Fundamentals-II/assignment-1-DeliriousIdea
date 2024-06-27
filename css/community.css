@@ -5,62 +5,72 @@
     I had no issue with this in the other 2 pages, but this one jus doesn't want to work
 */
 
-h2 {
-    text-align: center;
+@media screen and (min-width: 800px) {
+    body {
+        color: red;
+    }
 }
 
-.main-content>p:nth-child(2){
-    font-weight: bold;
-    margin:1rem 0;
-}
+@media screen and (min-width: 1300px) {
+    body {
+        color: blue;
+    }
+    h2 {
+        text-align: center;
+    }
 
-.card-wrapper {
-    margin: 1rem auto;
-    display: flex;
-    gap: 1rem;
-    flex-grow: 0;
-}
+    .main-content>p:nth-child(2) {
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+
+    .card-wrapper {
+        margin: 1rem auto;
+        display: flex;
+        gap: 1rem;
+        flex-grow: 0;
+    }
 
 
-.community-card {
-    flex:32%;
-    flex-direction: column;
-    background-color: #074272;
-    color: #fff;
-}
+    .community-card {
+        flex: 32%;
+        flex-direction: column;
+        background-color: #074272;
+        color: #fff;
+    }
 
-.community-card img {
-}
 
-.community-card a {
-    color:#fff;
-}
+    .community-card a {
+        color: #fff;
+    }
 
-.community-card>p {
-    padding: 0.5rem;
-}
+    .community-card>p {
+        padding: 0.5rem;
+    }
 
-.bottom-hero {
-    max-width: 100vw;
-    background-image: url(../img/building-stronger.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 1rem 0;
-}
+    .bottom-hero {
+        max-width: 100vw;
+        background-image: url(../img/building-stronger.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem 0;
+    }
 
-.hero-text-wrapper {
-    max-width: 60vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: right;
-}
+    .hero-text-wrapper {
+        max-width: 60vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: right;
+    }
 
-.hero-text { /* Flex for gap */
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    background-color: #fafafa;
-    padding: 1rem;
-    background-color: rgba(243, 243, 243, 0.9);
-    gap:1rem;
+    .hero-text {
+        /* Flex for gap */
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: #fafafa;
+        padding: 1rem;
+        background-color: rgba(243, 243, 243, 0.9);
+        gap: 1rem;
+    }
 }
