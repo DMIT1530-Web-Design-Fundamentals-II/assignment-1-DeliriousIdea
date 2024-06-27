@@ -1,6 +1,20 @@
 /*
     TODO: Browse links
 */
+h2 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+header {
+    color: #074272;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav-container {
     background-color: #074272;
 }
@@ -21,22 +35,36 @@
     padding: 0 0.25rem;
 }
 
-header {
-    color: #074272;
-    margin: 1rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.browse-card:nth-of-type(2) {
+    flex-direction: row-reverse;
+    gap: 0;
 }
 
-@media screen and (min-width:800px) {}
+@media screen and (min-width:800px) {
+    .additional-help-wrapper {
+        background-color: #f5f5f5;
+    }
+    .help-wrapper {
+        max-width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .help-card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff;
+        padding: 1.5rem;
+        line-height: 2rem;
+        margin: 0 0 2rem;
+        border: 0.25rem solid #f3f3f3;
+        border-radius: 0.25rem;
+    }
+}
 
 @media screen and (min-width:1300px) {
-    h2 {
-        margin: 1rem 0;
-        text-align: center;
-    }
 
     h2:nth-last-of-type(1) {
         padding-top: 1rem;
@@ -98,10 +126,6 @@ header {
         gap: 1rem;
     }
 
-    .browse-card:nth-of-type(2) {
-        flex-direction: row-reverse;
-        gap: 0;
-    }
 
     .additional-help-wrapper {
         background-color: #f5f5f5;
@@ -119,7 +143,6 @@ header {
         flex-direction: column;
         text-align: center;
         background-color: #fff;
-        ;
         padding: 1.5rem;
         line-height: 2rem;
         margin: 0 0 2rem;
