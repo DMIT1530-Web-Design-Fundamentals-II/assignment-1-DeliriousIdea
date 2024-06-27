@@ -1,0 +1,47 @@
+/*
+    TODO: Make images respect the same height for cards
+*/
+
+h2 {
+    text-align: center;
+}
+
+.card-wrapper {
+    gap: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #074272;
+    color: #fff;
+}
+
+.bottom-hero {
+    max-width: 100vw;
+    background-image: url(../img/building-stronger.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 0;
+}
+
+.hero-text-wrapper {
+    max-width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    background-color: #fafafa;
+    padding: 1rem;
+    background-color: rgba(243, 243, 243, 0.9)
+}
